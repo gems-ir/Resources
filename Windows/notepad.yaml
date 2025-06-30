@@ -1,0 +1,11 @@
+metadata: 
+  name: "Notepad"
+  description: "Get notepad file in temp folder on windows 11"
+  date: "02/09/2024"
+  category: "Windows"
+  target: "Windows"
+  source: 
+    - "https://medium.com/@mahmoudsoheem/new-digital-forensics-artifact-from-windows-notepad-527645906b7b"
+artifact:
+  path: 
+    - '\Users\*\AppData\Local\Packages\Microsoft.WindowsNotepad_8wekyb3d8bbwe\LocalState\TabState'

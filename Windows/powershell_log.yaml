@@ -1,0 +1,11 @@
+metadata: 
+  name: "PSReadLine"
+  description: "PSReadLine is an hisytory of powershell command"
+  date: "29/03/2024"
+  category: "Windows"
+  target: "Windows"
+  source:
+    - "https://0xdf.gitlab.io/2018/11/08/powershell-history-file.html"
+artifact:
+  path: 
+    - '\Users\*\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt'

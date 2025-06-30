@@ -1,0 +1,11 @@
+metadata: 
+  name: "RDPBMC"
+  description: "Remote Desktop Protocol (RDP) BitMap Cache (BMC)."
+  date: "02/04/2024"
+  category: "Windows"
+  target: "Windows"
+  source:
+    - "https://security.opentext.com/appDetails/RDP-Cached-Bitmap-Extractor"
+artifact:
+  path: 
+    - '\Users\*\AppData\Local\Microsoft\Terminal Server Client\Cache\*'

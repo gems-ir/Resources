@@ -1,0 +1,23 @@
+metadata: 
+  name: "Apps"
+  description: "Collection of all app ressources"
+  date: "06/03/2024"
+  category: "Collection"
+  target: "Windows"
+artifact:
+  group: 
+    - 'AppsRemoteAccess'
+---
+
+metadata: 
+  name: "AppsRemoteAccess"
+  description: "Collection of all remote access ressources"
+  date: "06/03/2024"
+  category: "Collection"
+  target: "Windows"
+artifact:
+  group: 
+    - 'Anydesk'
+    - 'Atera'
+    - 'Splashtop'
+    - 'TeamViewer'

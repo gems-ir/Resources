@@ -1,0 +1,9 @@
+metadata: 
+  name: "ThumbCache"
+  description: "Thumbs cache file"
+  date: "29/03/2024"
+  category: "Windows"
+  target: "Windows"
+artifact:
+  path: 
+    - '\Users\*\AppData\Local\Microsoft\Windows\Explorer\*'

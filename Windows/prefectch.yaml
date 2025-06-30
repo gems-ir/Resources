@@ -1,0 +1,10 @@
+metadata: 
+  name: "Prefetch"
+  description: "Execution of file"
+  date: "02/03/2024"
+  category: "Windows"
+  target: "Windows"
+artifact:
+  path: 
+    - '\Windows\prefetch\*.pf'
+    - '\Windows\prefetch\*.PF'

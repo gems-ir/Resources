@@ -1,0 +1,12 @@
+metadata: 
+  name: "Browsers"
+  description: "This is regroup all browsers file artefact"
+  date: "29/03/2024"
+  category: "Collection"
+  target: "Windows"
+artifact:
+  group:
+    - "Edge"
+    - "Brave"
+    - "Firefox"
+    - "Chrome"
