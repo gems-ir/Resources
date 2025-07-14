@@ -1,34 +1,50 @@
-# Ressources
+# Resources
 
-This is the Ressources repository for Collector
+This is the resources repository for Collector
 
 ## Template
 
-Example to only path artifact: 
+Example to artifact resource: 
 ```yaml
-metadata: 
-  name: "NameOfYourArtifactRessourcePath"
-  description: "This is a description of my artifact path/file"
-  date: "29/03/2024"
-  category: "Artefact"
+metadata:
+  name: "NameOfYourArtifactResource"
+  description: "This is a description of my artifact"
+  date: "17/07/2024"
+  target: "Windows"
   source:
-    - "https://exemple.com/exemple-of-collector-ressources"
-artefact:
-  path: 
-    - 'exemple\of\path\to\artefact.atf'
+    - "https://exemple.com/exemple-of-collector-resources"
+artifact:
+  path:
+    - "example\of\path\to\artifact.atf"
 ```
 
-Example to only collection:
+Example to group resource:
+```yaml
+metadata:
+  name: "Required"
+  description: "Required"
+  date: "Optional"
+  category: "Optional"
+  target: "Required"
+  source:
+    - "Optional"
+artifact:
+  group:
+    - "Required"
+```
+
+## Docs
 
 ```yaml
-metadata: 
-  name: "NameOfYourArtifactRessourceGroup"
-  description: "This is a description of my group artifact path"
-  date: "29/03/2024"
-  category: "Collection"
-  source:
-    - "https://exemple.com/exemple-of-collector-ressources"
-artefact:
-  group:
-    - 'NameOfYourArtifactRessourcePath'
+metadata:
+  name: "Required"
+  description: "Required"
+  date: "Optional"
+  category: "Optional"
+  target: "Required"
+  source: 
+    - "Optional"
+artifact:
+  path:
+    - "Required"
 ```
